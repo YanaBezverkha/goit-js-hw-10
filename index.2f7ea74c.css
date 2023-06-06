@@ -1,2 +1,0 @@
-body{margin:50px 80px}h1,p{margin-top:10px;margin-bottom:10px}img{height:auto;margin:20px auto;display:block}.loader{width:48px;height:48px;box-sizing:border-box;border-top:3px solid #000;border-right:3px solid rgba(0,0,0,0);border-radius:50%;margin:100px auto;animation:rotation 1s linear infinite;display:block}@keyframes rotation{0%{transform:rotate(0deg)}to{transform:rotate(360deg)}}.is-hidden{display:none}
-/*# sourceMappingURL=index.2f7ea74c.css.map */
