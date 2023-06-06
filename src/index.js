@@ -31,7 +31,7 @@ function onShowInfo(event) {
     .then(breed => {
       const markup = `<h1>${breed[0].breeds[0].name}</h1><img src=${breed[0].url} width='400'/><p></p>${breed[0].breeds[0].description}</p><p><b>Temperament: </b>${breed[0].breeds[0].temperament}</p>`;
       refs.container.innerHTML = markup;
-      setTimeout(changeVisibility(refs.container, refs.loader), 300);
+      setTimeout(changeVisibility(refs.container, refs.loader), 500);
     })
     .catch(() => {
       Notify.failure('Oops! Something went wrong! Try reloading the page!');
